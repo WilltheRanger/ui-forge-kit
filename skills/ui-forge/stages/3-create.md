@@ -11,7 +11,7 @@ What ui-forge adds:
 - **Sourcing order for each manifest row (21st.dev first, by user choice):** 21st.dev MCP (`search` → `get_component` with the result `id`; paid tier, unlimited retrievals. Its `generate` / `iterate_generation` are unavailable (aiGenerationEnabled false): adapt fetched code yourself. Its install commands need `API_KEY_21ST` set in the user's environment; never ask for or print the key) → shadcn/ui (Radix or Base UI) for primitives 21st.dev couldn't cover → `@magicui` / `@react-bits` via shadcn MCP → ui-director's other libraries (Aceternity, Sonner, Vaul, cmdk, NumberFlow, Beautiful UI, RareUI) → hand-built with a stated reason.
 - **Tokens** come from the Stage 2 design system. Before installing components, override every shadcn CSS variable in `:root` and `.dark` per `references/color.md` Stage 3. Never ship shadcn's default grayscale theme.
 - **Real assets, no placeholders.** Source images, video, 3D, icons and fonts from `references/assets.md`. Add an asset column to `components.md`, and log every file with source, author and license in the project's `assets.md`. 3D goes into the spectacle budget like any showpiece, with a static fallback.
-- Optional: push to Figma via `use_figma` / `send_code_to_figma` (load `/figma-use` first).
+- Optional: push to Figma via `use_figma` / `send_code_to_figma` (first call the Figma MCP's `get_figma_skill` for its usage rules, and `create_session` with the file key).
 
 ## 21st.dev deep sweep (every project, before the manifest)
 

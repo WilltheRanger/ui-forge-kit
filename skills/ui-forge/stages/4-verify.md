@@ -6,7 +6,7 @@ fidelity score, a second judge on a different model, and side-by-side evidence.
 
 ## Each round
 
-1. **Side-by-side.** Playwright screenshots of the build at 375 / 768 / 1440 (light + dark), placed next to the matching `references/` shots. Save to `rounds/round-<n>/`.
+1. **Side-by-side.** Screenshots of the build at 375 / 768 / 1440 (light + dark), placed next to the matching `references/` shots. Save to `rounds/round-<n>/`. Screenshot tool, first that works: Playwright MCP (`browser_resize` + `browser_take_screenshot`) → the built-in browser pane (`mcp__Claude_Browser__resize_window` with `colorScheme`, then `computer` screenshot) → `awwwards:capture_live_site` for a deployed URL. If Playwright errors with "Chromium distribution 'chrome' is not found", tell the user once that `npx playwright install chrome` fixes it, then use the next tool.
 2. **Fidelity %.** Estimate how close the build is to the approved mockup + references, per section and overall. Be harsh: builders over-score themselves.
 3. **Two independent judges**, each in its own context, given only the screenshots, side-by-sides, hierarchy map, manifest and rubric (never the builder's opinion):
    - Judge A: `impeccable:impeccable-finish-reviewer`.
