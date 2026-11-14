@@ -9,6 +9,7 @@ What ui-forge adds:
 - **Phase 2 → `design-brief.md`:** append a "References" section, plus `awwwards:create_design_brief` output from the favourite slugs.
 - **Phase 3 (rule of three):** ground the 3 directions in different favourites. Seed tokens with `awwwards:export_design_tokens`; for visual language consult `anthropic-skills:design-taste-skill-pack` (and `design-taste-frontend` §0 for landing/marketing surfaces).
 
+- **21st.dev templates and themes:** before the 3 directions, search `type: "template"` for whole-page structures matching the brief and `type: "theme"` in the brand hue (see `references/21st-dev.md`); use them to ground directions, not as finished designs.
 - **Color plan (required):** follow `references/color.md` Stage 2: brand hue, tinted neutral ramp, accent, chart palette, color budget and named places color appears. The design system isn't approved without it.
 
 Stage 2 ends when uxui-workflow's phase 3 screens and design system are approved.

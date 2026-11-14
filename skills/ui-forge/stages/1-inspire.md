@@ -13,7 +13,7 @@ Search by the job the screen must do ("pricing 3 tiers yearly toggle"), not a vi
 | Source | How | Use for |
 |---|---|---|
 | Awwwards MCP | `search_sites`, `new_winners`, `get_collections`, `search_elements`, `get_site_details` | Award-level sites and their design DNA |
-| 21st.dev MCP (paid, unlimited) | `search` (type component/theme/template), `search_picker` to let the user pick visually, `get_inspiration`, `list_bookmarks` | Buildable component patterns. Each result has `previewUrl` + `videoUrl`: save previews to `references/` and use the videos as motion references in 3b |
+| 21st.dev MCP (paid, unlimited; full map in `references/21st-dev.md`) | `search` (type component/theme/template), `search_picker` to let the user pick visually, `get_inspiration`, team libraries, bookmarks; save the shortlist with `create_bookmark_list` named after the project | Components, whole-page templates, themes and curated inspiration, not components alone. Each result has `previewUrl` + `videoUrl`: save previews to `references/` and use the videos as motion references in 3b |
 | `shadcn` MCP → `@magicui`, `@react-bits` registries | browse/search registry items | Animated showpieces, text effects, backgrounds |
 | Figma MCP | `search_design_system`, `get_libraries` (`create_session` first) | The user's existing files and system |
 | User's Chrome (claude-in-chrome; read `anthropic-skills:chrome-browser` first) | new tab only | Visual judgment on 21st.dev, magicui.design, reactbits.dev, ui.aceternity.com, ui.shadcn.com Blocks, plus signed-in galleries (Mobbin, Godly, Dribbble…) |

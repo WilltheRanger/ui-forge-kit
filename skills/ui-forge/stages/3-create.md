@@ -15,6 +15,10 @@ What ui-forge adds:
 
 ## 21st.dev deep sweep (every project, before the manifest)
 
+Use all of 21st.dev, not only components (`references/21st-dev.md`): check the user's team
+libraries first, pull logos with `search_logo`, consider Remotion video blocks for the demo video,
+and save the final shortlist to a 21st.dev bookmark list named after the project.
+
 Goal: make 21st.dev the main source for sections and blocks, not an afterthought. Intensity is set at
 kickoff in `forge.md` (`21st intensity: deep` by default; `light` = old behaviour).
 
