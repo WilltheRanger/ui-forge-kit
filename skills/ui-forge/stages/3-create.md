@@ -33,7 +33,7 @@ ui-director's `component-map.md` is a snapshot; libraries ship new components co
 picking components:
 
 1. Query what's new: `shadcn` MCP `list_items_in_registries` / `search_items_in_registries` for `@shadcn`, `@magicui`, `@react-bits`; 21st.dev `search` / `get_inspiration` (sort by newest); `awwwards:new_winners` and `search_elements` for fresh patterns. Optionally browse the libraries' changelog/"new" pages in Chrome.
-2. Compare against `~/.claude/skills/ui-forge/component-watch.md` (create it if missing).
+2. Compare against the component log. The installed plugin is a read-only cache, so the editable log is the repo copy: `~/ui-forge-kit/skills/ui-forge/component-watch.md`. If that path doesn't exist (another machine or a cloud session), read the bundled `component-watch.md` beside this skill and write new finds to the project root's `component-watch.md` instead, then tell the user to merge it into the repo.
 3. Append new finds there: date, library, component, install name, what job it solves, and whether it beat an older pick. Mark components that broke or were deprecated.
 4. Prefer a newer component in the manifest only if it passes ui-director's fit test better than the mapped one; note it in `components.md`.
 5. When a find proves itself in a shipped build, propose adding it to ui-director's `component-map.md` (ask the user first).

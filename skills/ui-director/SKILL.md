@@ -49,6 +49,8 @@ You orchestrate the user's other design skills. Load each one with the Skill too
 arrives*, not all at once. Several are long (design-taste-frontend is ~1,200 lines), and loading
 everything up front buries the brief.
 
+When installed via the `ui-forge-kit` plugin, `uxui-workflow` loads as `ui-forge-kit:uxui-workflow`.
+
 | Phase | Skill (Skill tool name) | Use it when |
 |---|---|---|
 | 0 Frame | `uxui-workflow` (phases 1–2) | New product, app or feature where the problem isn't defined yet. Its checkpoints stand: the user decides. |

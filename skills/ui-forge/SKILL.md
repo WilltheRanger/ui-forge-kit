@@ -1,6 +1,6 @@
 ---
 name: ui-forge
-description: End-to-end UI design framework in four gated stages — Inspire (Awwwards, 21st.dev, Magic UI, React Bits, Figma, browser galleries), Direct (uxui-workflow requirements → UX → rule-of-three UI), Create (ui-director composing shadcn/21st.dev/Magic UI/React Bits and its other libraries), Verify (ui-director critique loop plus impeccable, design-taste, animate, stop-slop and Awwwards audits). Use when the user wants "the best UI", asks to design/build/redesign a site, page, app or component from scratch with full research and review, or invokes /ui-forge. Also resumes when inspo.md, design-brief.md, components.md or review.md exist. Excludes Blender, Godot and Higgsfield.
+description: End-to-end UI design framework in four gated stages — Inspire (9–12 references from Awwwards, 21st.dev, Magic UI, React Bits, Figma, browser galleries, plus real asset sourcing), Direct (uxui-workflow requirements → UX → rule-of-three UI, with a required color plan), Create (ui-director with a deep 21st.dev sweep, 21st.dev first for every component, static build then motion pass), Verify (ui-director critique loop, fidelity %, two judges on different models, unslop fix order, impeccable, design-taste, stop-slop and Awwwards audits). Use when the user wants "the best UI", asks to design/build/redesign a site, page, app or component from scratch with full research and review, or invokes /ui-forge. Also resumes when inspo.md, design-brief.md, components.md or review.md exist. Excludes Blender, Godot and Higgsfield.
 argument-hint: "[stage] [brief or target]"
 ---
 
@@ -8,6 +8,11 @@ argument-hint: "[stage] [brief or target]"
 
 An orchestrator. It owns Stage 1 and the extra Verify lenses; everything else is delegated to
 `uxui-workflow` and `ui-director` so their rules stay the single source of truth.
+
+**Skill names.** This kit ships as the `ui-forge-kit` plugin, so load bundled skills with their
+plugin prefix: `ui-forge-kit:ui-director`, `ui-forge-kit:uxui-workflow`, `ui-forge-kit:unslop`. If a
+prefixed name isn't in the skill list (e.g. copied into `~/.claude/skills` instead), use the bare name.
+Bare names in these files (`ui-director`, etc.) mean the bundled skill.
 
 | Stage | Instructions | Delegates to | Output |
 |---|---|---|---|

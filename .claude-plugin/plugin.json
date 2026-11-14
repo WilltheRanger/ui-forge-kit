@@ -1,6 +1,6 @@
 {
   "name": "ui-forge-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UI design framework: /ui-forge (inspire → direct → create → verify) bundled with ui-director, uxui-workflow and unslop, plus the shadcn MCP with Magic UI and React Bits registries.",
   "author": { "name": "WilltheRanger" }
 }
