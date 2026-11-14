@@ -1,0 +1,11 @@
+{
+  "name": "ui-forge-kit",
+  "owner": { "name": "WilltheRanger" },
+  "plugins": [
+    {
+      "name": "ui-forge-kit",
+      "source": "./",
+      "description": "UI design framework bundle: ui-forge, ui-director, uxui-workflow, unslop + shadcn MCP."
+    }
+  ]
+}
